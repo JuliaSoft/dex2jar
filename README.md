@@ -8,7 +8,7 @@ In particular, this project is aimed as a prototype only for experiment, not mor
 How build and import it:
 
 - Make a clone of the project:
-	- git clone https://bitbucket.org/tregua87/dex2jar.git
+	- git clone https://github.com/JuliaSoft/dex2jar.git
 - Build the project typing in order the following commands. Open terminal and once in the clones folder: 
 	- $ gradlew build
 	- $ gradlew eclipse
