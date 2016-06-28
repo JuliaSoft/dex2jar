@@ -88,6 +88,9 @@ public class Dex2Asm {
     protected static final NpeTransformer T_npe = new NpeTransformer();
     protected static final MultiArrayTransformer T_multiArray = new MultiArrayTransformer();
 
+    protected static final FixLabelTransformer T_fixLabel = new FixLabelTransformer();
+    
+    
     static private int clearClassAccess(boolean isInner, int access) {
         if ((access & Opcodes.ACC_INTERFACE) == 0) { // issue 55
             access |= Opcodes.ACC_SUPER;// 解决生成的class文件使用dx重新转换时使用的指令与原始指令不同的问题
