@@ -5,6 +5,7 @@ This project is a "fork" from the original Dex2Jar (https://github.com/pxb1988/d
 It has been modified by Flavio T. and it has been simply moved from https://bitbucket.org/tregua87/dex2jar to the current repository in github.
 
 In particular, this project is aimed as a prototype only for experiment, not more.
+
 How build and import it:
 
 - Make a clone of the project:
